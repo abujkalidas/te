@@ -8,7 +8,7 @@ def main():
     st.title("Webcam Video Stream with OCR")
 
     # Access the webcam
-    url = "http://192.168.219.70:8080/video"
+    url = "http://192.168.1.39:8080/video"
     video_stream = cv2.VideoCapture(0)  # Use 0 for default webcam, change to 1 or other index for external cameras
 
     st.subheader("Live Webcam Feed")
