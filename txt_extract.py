@@ -20,7 +20,7 @@ def main():
     pytesseract.pytesseract.tesseract_cmd = path_to_tesseract
     image_path = "test1.jpg"
 
-    while cv2.waitKey(400):
+    while cv2.waitKey():
         # Read video frame
         ret, frame = video_stream.read()
 
