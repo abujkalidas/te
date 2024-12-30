@@ -47,8 +47,8 @@ def main():
         
 
         # Check for the 'q' key press to quit
-        # if cv2.waitKey(1) & 0xFF == ord('q'):
-        #     break
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
     # Release the video stream
     video_stream.release()
