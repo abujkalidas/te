@@ -52,8 +52,8 @@ def main():
             break
 
     # Release the video stream
-    video_stream.release()
-    cv2.destroyAllWindows()
+    # video_stream.release()
+    # cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     main()
