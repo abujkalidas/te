@@ -9,7 +9,7 @@ def main():
 
     # Access the webcam (update URL if using an IP camera)
     url = "http://192.168.1.39:8080/video"
-    video_stream = cv2.VideoCapture(url)  # Change to `0` for the default webcam
+    video_stream = cv2.VideoCapture(0)  # Change to `0` for the default webcam
 
     st.subheader("Live Webcam Feed")
     video_placeholder = st.empty()
