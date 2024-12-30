@@ -2,7 +2,8 @@ import cv2
 import pytesseract
 from PIL import Image
 import streamlit as st
-
+import os
+os.environ['OPENCV_HEADLESS'] = '1'
 def main():
     st.title("Webcam Video Stream with OCR")
 
