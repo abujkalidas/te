@@ -2,7 +2,7 @@ import cv2
 
 # Test IP camera or local webcam
 url = "http://192.168.1.39:8080/video"  # Replace with 0 for local webcam
-video_stream = cv2.VideoCapture(url)
+video_stream = cv2.VideoCapture(0)
 
 if not video_stream.isOpened():
     print("Error: Unable to access the video stream. Check the URL or webcam connection.")
